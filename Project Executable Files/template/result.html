@@ -1,0 +1,31 @@
+<html>
+  <head>
+    <title>result</title>
+    <style>
+      body {
+        background-color: rgb(139, 177, 177);
+      }
+      .output {
+        padding: 15px;
+        border: 5px solid red;
+        text-align: center;
+        color: rgb(124, 0, 241);
+        font-style: italic;
+      }
+      .result {
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+        width: 50%;
+      }
+    </style>
+  </head>
+  <body>
+    <h1 class="output">
+      <marquee behavior="scroll" direction="left">
+        {{ prediction_text }}</marquee
+      >
+    </h1>
+    <img class="result" src="static/3.gif" alt="prediction" width="200" />
+  </body>
+</html>
